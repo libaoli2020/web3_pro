@@ -24,9 +24,10 @@ async function main() {
         console.log("verification skipped..")
     }
 
-
     // init 2 accounts
     const [firstAccount, secondAccount] = await ethers.getSigners()
+    console.log(`get signers`)
+
     
     // fund contract with first account
     const fundTx = await fundMe.fund({value: ethers.parseEther("0.0005")})
