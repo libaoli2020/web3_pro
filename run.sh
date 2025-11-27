@@ -1,7 +1,7 @@
 
 
 
-//npx env-enc set
+//npx env-enc set-pw
 
 npx hardhat compile
 
